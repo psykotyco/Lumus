@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3BC322165192D000F8EE67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3BC321165192D000F8EE67 /* UIKit.framework */; };
+		DF3BC324165192D000F8EE67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3BC323165192D000F8EE67 /* Foundation.framework */; };
+		DF3BC326165192D000F8EE67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3BC325165192D000F8EE67 /* CoreGraphics.framework */; };
+		DF3BC32C165192D000F8EE67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC32A165192D000F8EE67 /* InfoPlist.strings */; };
+		DF3BC32E165192D000F8EE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3BC32D165192D000F8EE67 /* main.m */; };
+		DF3BC332165192D000F8EE67 /* LUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3BC331165192D000F8EE67 /* LUAppDelegate.m */; };
+		DF3BC334165192D000F8EE67 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC333165192D000F8EE67 /* Default.png */; };
+		DF3BC336165192D000F8EE67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC335165192D000F8EE67 /* Default@2x.png */; };
+		DF3BC338165192D000F8EE67 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC337165192D000F8EE67 /* Default-568h@2x.png */; };
+		DF3BC33B165192D000F8EE67 /* LUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3BC33A165192D000F8EE67 /* LUViewController.m */; };
+		DF3BC34A1651937C00F8EE67 /* brightness_big.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC3461651937C00F8EE67 /* brightness_big.png */; };
+		DF3BC34B1651937C00F8EE67 /* brightness_small.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC3471651937C00F8EE67 /* brightness_small.png */; };
+		DF3BC34C1651937C00F8EE67 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC3481651937C00F8EE67 /* off.png */; };
+		DF3BC34D1651937C00F8EE67 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC3491651937C00F8EE67 /* on.png */; };
+		DF3BC3501651938700F8EE67 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3BC34F1651938700F8EE67 /* UIDevice-Hardware.m */; };
+		DF3BC352165193BA00F8EE67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3BC351165193BA00F8EE67 /* AVFoundation.framework */; };
+		DF3BC354165194B700F8EE67 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC353165194B700F8EE67 /* 57.png */; };
+		DF3BC356165194BD00F8EE67 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BC355165194BD00F8EE67 /* 114.png */; };
+		DF4D28AB1657AA4D0055B170 /* LUMorseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4D28A91657AA4D0055B170 /* LUMorseViewController.m */; };
+		DF4D28AC1657AA4D0055B170 /* LUMorseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4D28AA1657AA4D0055B170 /* LUMorseViewController.xib */; };
+		DF4D28AE1657AA9C0055B170 /* LUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4D28AD1657AA9C0055B170 /* LUViewController.xib */; };
+		DF4D29011657FA460055B170 /* torch.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4D28FF1657FA460055B170 /* torch.png */; };
+		DF4D29021657FA460055B170 /* torch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4D29001657FA460055B170 /* torch@2x.png */; };
+		DF4D29331657FFF70055B170 /* morse.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4D29311657FFF70055B170 /* morse.png */; };
+		DF4D29341657FFF70055B170 /* morse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4D29321657FFF70055B170 /* morse@2x.png */; };
+		DF4D2955165813300055B170 /* LUMorseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4D2954165813300055B170 /* LUMorseManager.m */; };
+		DF634A4F165C344000F17668 /* LUMorseContants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF634A4E165C344000F17668 /* LUMorseContants.m */; };
+		DF66DB23165A1B90006DFFFB /* LUMorseCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF66DB22165A1B90006DFFFB /* LUMorseCharacter.m */; };
+		DF66DB2D165A2EDA006DFFFB /* LUMorseCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF66DB2C165A2EDA006DFFFB /* LUMorseCharacterManager.m */; };
+		DFB3E974165AA85A00B6FEC4 /* 0.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94A165AA85A00B6FEC4 /* 0.txt */; };
+		DFB3E975165AA85A00B6FEC4 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94B165AA85A00B6FEC4 /* 1.txt */; };
+		DFB3E976165AA85A00B6FEC4 /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94C165AA85A00B6FEC4 /* 2.txt */; };
+		DFB3E977165AA85A00B6FEC4 /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94D165AA85A00B6FEC4 /* 3.txt */; };
+		DFB3E978165AA85A00B6FEC4 /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94E165AA85A00B6FEC4 /* 4.txt */; };
+		DFB3E979165AA85A00B6FEC4 /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E94F165AA85A00B6FEC4 /* 5.txt */; };
+		DFB3E97A165AA85A00B6FEC4 /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E950165AA85A00B6FEC4 /* 6.txt */; };
+		DFB3E97B165AA85A00B6FEC4 /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E951165AA85A00B6FEC4 /* 7.txt */; };
+		DFB3E97C165AA85A00B6FEC4 /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E952165AA85A00B6FEC4 /* 8.txt */; };
+		DFB3E97D165AA85A00B6FEC4 /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E953165AA85A00B6FEC4 /* 9.txt */; };
+		DFB3E97E165AA85A00B6FEC4 /* a.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E954165AA85A00B6FEC4 /* a.txt */; };
+		DFB3E97F165AA85A00B6FEC4 /* b.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E955165AA85A00B6FEC4 /* b.txt */; };
+		DFB3E980165AA85A00B6FEC4 /* c.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E956165AA85A00B6FEC4 /* c.txt */; };
+		DFB3E981165AA85A00B6FEC4 /* comma.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E957165AA85A00B6FEC4 /* comma.txt */; };
+		DFB3E982165AA85A00B6FEC4 /* d.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E958165AA85A00B6FEC4 /* d.txt */; };
+		DFB3E983165AA85A00B6FEC4 /* dot.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E959165AA85A00B6FEC4 /* dot.txt */; };
+		DFB3E984165AA85A00B6FEC4 /* e.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95A165AA85A00B6FEC4 /* e.txt */; };
+		DFB3E985165AA85A00B6FEC4 /* exclamation.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95B165AA85A00B6FEC4 /* exclamation.txt */; };
+		DFB3E986165AA85A00B6FEC4 /* f.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95C165AA85A00B6FEC4 /* f.txt */; };
+		DFB3E987165AA85A00B6FEC4 /* g.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95D165AA85A00B6FEC4 /* g.txt */; };
+		DFB3E988165AA85A00B6FEC4 /* h.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95E165AA85A00B6FEC4 /* h.txt */; };
+		DFB3E989165AA85A00B6FEC4 /* i.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E95F165AA85A00B6FEC4 /* i.txt */; };
+		DFB3E98A165AA85A00B6FEC4 /* interrogation.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E960165AA85A00B6FEC4 /* interrogation.txt */; };
+		DFB3E98B165AA85A00B6FEC4 /* j.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E961165AA85A00B6FEC4 /* j.txt */; };
+		DFB3E98C165AA85A00B6FEC4 /* k.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E962165AA85A00B6FEC4 /* k.txt */; };
+		DFB3E98D165AA85A00B6FEC4 /* l.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E963165AA85A00B6FEC4 /* l.txt */; };
+		DFB3E98E165AA85A00B6FEC4 /* m.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E964165AA85A00B6FEC4 /* m.txt */; };
+		DFB3E98F165AA85A00B6FEC4 /* n.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E965165AA85A00B6FEC4 /* n.txt */; };
+		DFB3E990165AA85A00B6FEC4 /* ñ.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E966165AA85A00B6FEC4 /* ñ.txt */; };
+		DFB3E991165AA85A00B6FEC4 /* o.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E967165AA85A00B6FEC4 /* o.txt */; };
+		DFB3E992165AA85A00B6FEC4 /* p.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E968165AA85A00B6FEC4 /* p.txt */; };
+		DFB3E993165AA85A00B6FEC4 /* q.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E969165AA85A00B6FEC4 /* q.txt */; };
+		DFB3E994165AA85A00B6FEC4 /* quote.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96A165AA85A00B6FEC4 /* quote.txt */; };
+		DFB3E995165AA85A00B6FEC4 /* r.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96B165AA85A00B6FEC4 /* r.txt */; };
+		DFB3E996165AA85A00B6FEC4 /* s.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96C165AA85A00B6FEC4 /* s.txt */; };
+		DFB3E997165AA85A00B6FEC4 /* t.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96D165AA85A00B6FEC4 /* t.txt */; };
+		DFB3E998165AA85A00B6FEC4 /* u.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96E165AA85A00B6FEC4 /* u.txt */; };
+		DFB3E999165AA85A00B6FEC4 /* v.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E96F165AA85A00B6FEC4 /* v.txt */; };
+		DFB3E99A165AA85A00B6FEC4 /* w.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E970165AA85A00B6FEC4 /* w.txt */; };
+		DFB3E99B165AA85A00B6FEC4 /* x.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E971165AA85A00B6FEC4 /* x.txt */; };
+		DFB3E99C165AA85A00B6FEC4 /* y.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E972165AA85A00B6FEC4 /* y.txt */; };
+		DFB3E99D165AA85A00B6FEC4 /* z.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E973165AA85A00B6FEC4 /* z.txt */; };
+		DFB3E9B9165AD8C300B6FEC4 /* LUMorseSignalDot.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3E9B8165AD8C300B6FEC4 /* LUMorseSignalDot.m */; };
+		DFB3E9BC165AD8D800B6FEC4 /* LUMorseSignalStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3E9BB165AD8D800B6FEC4 /* LUMorseSignalStreak.m */; };
+		DFB3E9C1165AE9B400B6FEC4 /* whiteSpace.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E9BF165AE9B400B6FEC4 /* whiteSpace.txt */; };
+		DFB3E9C2165AE9B400B6FEC4 /* wordEnd.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFB3E9C0165AE9B400B6FEC4 /* wordEnd.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF117AD9165B6EAA001B5271 /* LUMorseCharacterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUMorseCharacterDelegate.h; sourceTree = "<group>"; };
+		DF117ADB165B7086001B5271 /* LUMorseManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUMorseManagerDelegate.h; sourceTree = "<group>"; };
+		DF3BC31D165192D000F8EE67 /* Lumus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3BC321165192D000F8EE67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF3BC323165192D000F8EE67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF3BC325165192D000F8EE67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF3BC329165192D000F8EE67 /* Lumus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lumus-Info.plist"; sourceTree = "<group>"; };
+		DF3BC32B165192D000F8EE67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF3BC32D165192D000F8EE67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3BC32F165192D000F8EE67 /* Lumus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lumus-Prefix.pch"; sourceTree = "<group>"; };
+		DF3BC330165192D000F8EE67 /* LUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUAppDelegate.h; sourceTree = "<group>"; };
+		DF3BC331165192D000F8EE67 /* LUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUAppDelegate.m; sourceTree = "<group>"; };
+		DF3BC333165192D000F8EE67 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF3BC335165192D000F8EE67 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF3BC337165192D000F8EE67 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF3BC339165192D000F8EE67 /* LUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUViewController.h; sourceTree = "<group>"; };
+		DF3BC33A165192D000F8EE67 /* LUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUViewController.m; sourceTree = "<group>"; };
+		DF3BC3461651937C00F8EE67 /* brightness_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness_big.png; sourceTree = "<group>"; };
+		DF3BC3471651937C00F8EE67 /* brightness_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness_small.png; sourceTree = "<group>"; };
+		DF3BC3481651937C00F8EE67 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		DF3BC3491651937C00F8EE67 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		DF3BC34E1651938700F8EE67 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		DF3BC34F1651938700F8EE67 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		DF3BC351165193BA00F8EE67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF3BC353165194B700F8EE67 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = ../../57.png; sourceTree = "<group>"; };
+		DF3BC355165194BD00F8EE67 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = ../../114.png; sourceTree = "<group>"; };
+		DF4D28A81657AA4D0055B170 /* LUMorseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseViewController.h; sourceTree = "<group>"; };
+		DF4D28A91657AA4D0055B170 /* LUMorseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseViewController.m; sourceTree = "<group>"; };
+		DF4D28AA1657AA4D0055B170 /* LUMorseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUMorseViewController.xib; sourceTree = "<group>"; };
+		DF4D28AD1657AA9C0055B170 /* LUViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUViewController.xib; sourceTree = "<group>"; };
+		DF4D28FF1657FA460055B170 /* torch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torch.png; sourceTree = "<group>"; };
+		DF4D29001657FA460055B170 /* torch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch@2x.png"; sourceTree = "<group>"; };
+		DF4D29311657FFF70055B170 /* morse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse.png; sourceTree = "<group>"; };
+		DF4D29321657FFF70055B170 /* morse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morse@2x.png"; sourceTree = "<group>"; };
+		DF4D2953165813300055B170 /* LUMorseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseManager.h; sourceTree = "<group>"; };
+		DF4D2954165813300055B170 /* LUMorseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseManager.m; sourceTree = "<group>"; };
+		DF634A4D165C344000F17668 /* LUMorseContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseContants.h; sourceTree = "<group>"; };
+		DF634A4E165C344000F17668 /* LUMorseContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseContants.m; sourceTree = "<group>"; };
+		DF66DB20165A1AAA006DFFFB /* LUMorseCharacterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseCharacterProtocol.h; sourceTree = "<group>"; };
+		DF66DB21165A1B90006DFFFB /* LUMorseCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseCharacter.h; sourceTree = "<group>"; };
+		DF66DB22165A1B90006DFFFB /* LUMorseCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseCharacter.m; sourceTree = "<group>"; };
+		DF66DB2B165A2EDA006DFFFB /* LUMorseCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseCharacterManager.h; sourceTree = "<group>"; };
+		DF66DB2C165A2EDA006DFFFB /* LUMorseCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseCharacterManager.m; sourceTree = "<group>"; };
+		DFB3E94A165AA85A00B6FEC4 /* 0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0.txt; sourceTree = "<group>"; };
+		DFB3E94B165AA85A00B6FEC4 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		DFB3E94C165AA85A00B6FEC4 /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		DFB3E94D165AA85A00B6FEC4 /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		DFB3E94E165AA85A00B6FEC4 /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		DFB3E94F165AA85A00B6FEC4 /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		DFB3E950165AA85A00B6FEC4 /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		DFB3E951165AA85A00B6FEC4 /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		DFB3E952165AA85A00B6FEC4 /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
+		DFB3E953165AA85A00B6FEC4 /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
+		DFB3E954165AA85A00B6FEC4 /* a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a.txt; sourceTree = "<group>"; };
+		DFB3E955165AA85A00B6FEC4 /* b.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = b.txt; sourceTree = "<group>"; };
+		DFB3E956165AA85A00B6FEC4 /* c.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c.txt; sourceTree = "<group>"; };
+		DFB3E957165AA85A00B6FEC4 /* comma.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comma.txt; sourceTree = "<group>"; };
+		DFB3E958165AA85A00B6FEC4 /* d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d.txt; sourceTree = "<group>"; };
+		DFB3E959165AA85A00B6FEC4 /* dot.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dot.txt; sourceTree = "<group>"; };
+		DFB3E95A165AA85A00B6FEC4 /* e.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e.txt; sourceTree = "<group>"; };
+		DFB3E95B165AA85A00B6FEC4 /* exclamation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclamation.txt; sourceTree = "<group>"; };
+		DFB3E95C165AA85A00B6FEC4 /* f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = f.txt; sourceTree = "<group>"; };
+		DFB3E95D165AA85A00B6FEC4 /* g.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g.txt; sourceTree = "<group>"; };
+		DFB3E95E165AA85A00B6FEC4 /* h.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = h.txt; sourceTree = "<group>"; };
+		DFB3E95F165AA85A00B6FEC4 /* i.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = i.txt; sourceTree = "<group>"; };
+		DFB3E960165AA85A00B6FEC4 /* interrogation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interrogation.txt; sourceTree = "<group>"; };
+		DFB3E961165AA85A00B6FEC4 /* j.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = j.txt; sourceTree = "<group>"; };
+		DFB3E962165AA85A00B6FEC4 /* k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = k.txt; sourceTree = "<group>"; };
+		DFB3E963165AA85A00B6FEC4 /* l.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = l.txt; sourceTree = "<group>"; };
+		DFB3E964165AA85A00B6FEC4 /* m.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m.txt; sourceTree = "<group>"; };
+		DFB3E965165AA85A00B6FEC4 /* n.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = n.txt; sourceTree = "<group>"; };
+		DFB3E966165AA85A00B6FEC4 /* ñ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ñ.txt"; sourceTree = "<group>"; };
+		DFB3E967165AA85A00B6FEC4 /* o.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = o.txt; sourceTree = "<group>"; };
+		DFB3E968165AA85A00B6FEC4 /* p.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p.txt; sourceTree = "<group>"; };
+		DFB3E969165AA85A00B6FEC4 /* q.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = q.txt; sourceTree = "<group>"; };
+		DFB3E96A165AA85A00B6FEC4 /* quote.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quote.txt; sourceTree = "<group>"; };
+		DFB3E96B165AA85A00B6FEC4 /* r.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = r.txt; sourceTree = "<group>"; };
+		DFB3E96C165AA85A00B6FEC4 /* s.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = s.txt; sourceTree = "<group>"; };
+		DFB3E96D165AA85A00B6FEC4 /* t.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = t.txt; sourceTree = "<group>"; };
+		DFB3E96E165AA85A00B6FEC4 /* u.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = u.txt; sourceTree = "<group>"; };
+		DFB3E96F165AA85A00B6FEC4 /* v.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v.txt; sourceTree = "<group>"; };
+		DFB3E970165AA85A00B6FEC4 /* w.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = w.txt; sourceTree = "<group>"; };
+		DFB3E971165AA85A00B6FEC4 /* x.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x.txt; sourceTree = "<group>"; };
+		DFB3E972165AA85A00B6FEC4 /* y.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y.txt; sourceTree = "<group>"; };
+		DFB3E973165AA85A00B6FEC4 /* z.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = z.txt; sourceTree = "<group>"; };
+		DFB3E9B7165AD8C300B6FEC4 /* LUMorseSignalDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseSignalDot.h; sourceTree = "<group>"; };
+		DFB3E9B8165AD8C300B6FEC4 /* LUMorseSignalDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseSignalDot.m; sourceTree = "<group>"; };
+		DFB3E9BA165AD8D800B6FEC4 /* LUMorseSignalStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMorseSignalStreak.h; sourceTree = "<group>"; };
+		DFB3E9BB165AD8D800B6FEC4 /* LUMorseSignalStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMorseSignalStreak.m; sourceTree = "<group>"; };
+		DFB3E9BD165AD92B00B6FEC4 /* LUMorseSignalDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUMorseSignalDelegate.h; sourceTree = "<group>"; };
+		DFB3E9BE165ADA4500B6FEC4 /* LUMorseSignalProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUMorseSignalProtocol.h; sourceTree = "<group>"; };
+		DFB3E9BF165AE9B400B6FEC4 /* whiteSpace.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whiteSpace.txt; sourceTree = "<group>"; };
+		DFB3E9C0165AE9B400B6FEC4 /* wordEnd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordEnd.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3BC31A165192D000F8EE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3BC352165193BA00F8EE67 /* AVFoundation.framework in Frameworks */,
+				DF3BC322165192D000F8EE67 /* UIKit.framework in Frameworks */,
+				DF3BC324165192D000F8EE67 /* Foundation.framework in Frameworks */,
+				DF3BC326165192D000F8EE67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3BC312165192D000F8EE67 = {
+			isa = PBXGroup;
+			children = (
+				DF3BC327165192D000F8EE67 /* Lumus */,
+				DF3BC320165192D000F8EE67 /* Frameworks */,
+				DF3BC31E165192D000F8EE67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3BC31E165192D000F8EE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC31D165192D000F8EE67 /* Lumus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3BC320165192D000F8EE67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC351165193BA00F8EE67 /* AVFoundation.framework */,
+				DF3BC321165192D000F8EE67 /* UIKit.framework */,
+				DF3BC323165192D000F8EE67 /* Foundation.framework */,
+				DF3BC325165192D000F8EE67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3BC327165192D000F8EE67 /* Lumus */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3E947165AA73B00B6FEC4 /* Data */,
+				DF4D28A41657A9770055B170 /* Classes */,
+				DF3BC3451651935F00F8EE67 /* Hardware Extensions */,
+				DF3BC3441651933A00F8EE67 /* Images */,
+				DF3BC328165192D000F8EE67 /* Supporting Files */,
+			);
+			path = Lumus;
+			sourceTree = "<group>";
+		};
+		DF3BC328165192D000F8EE67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC329165192D000F8EE67 /* Lumus-Info.plist */,
+				DF3BC32A165192D000F8EE67 /* InfoPlist.strings */,
+				DF3BC32D165192D000F8EE67 /* main.m */,
+				DF3BC32F165192D000F8EE67 /* Lumus-Prefix.pch */,
+				DF3BC333165192D000F8EE67 /* Default.png */,
+				DF3BC335165192D000F8EE67 /* Default@2x.png */,
+				DF3BC337165192D000F8EE67 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3BC3441651933A00F8EE67 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D29311657FFF70055B170 /* morse.png */,
+				DF4D29321657FFF70055B170 /* morse@2x.png */,
+				DF4D28FF1657FA460055B170 /* torch.png */,
+				DF4D29001657FA460055B170 /* torch@2x.png */,
+				DF3BC355165194BD00F8EE67 /* 114.png */,
+				DF3BC353165194B700F8EE67 /* 57.png */,
+				DF3BC3461651937C00F8EE67 /* brightness_big.png */,
+				DF3BC3471651937C00F8EE67 /* brightness_small.png */,
+				DF3BC3481651937C00F8EE67 /* off.png */,
+				DF3BC3491651937C00F8EE67 /* on.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DF3BC3451651935F00F8EE67 /* Hardware Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC34E1651938700F8EE67 /* UIDevice-Hardware.h */,
+				DF3BC34F1651938700F8EE67 /* UIDevice-Hardware.m */,
+			);
+			path = "Hardware Extensions";
+			sourceTree = "<group>";
+		};
+		DF4D28A41657A9770055B170 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D2952165813130055B170 /* MorseManager */,
+				DF4D28B01657AABF0055B170 /* APPDelegate */,
+				DF4D28A71657AA1C0055B170 /* MorseView */,
+				DF4D28A61657A99A0055B170 /* TorchView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF4D28A61657A99A0055B170 /* TorchView */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC339165192D000F8EE67 /* LUViewController.h */,
+				DF3BC33A165192D000F8EE67 /* LUViewController.m */,
+				DF4D28AD1657AA9C0055B170 /* LUViewController.xib */,
+			);
+			path = TorchView;
+			sourceTree = "<group>";
+		};
+		DF4D28A71657AA1C0055B170 /* MorseView */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D28A81657AA4D0055B170 /* LUMorseViewController.h */,
+				DF4D28A91657AA4D0055B170 /* LUMorseViewController.m */,
+				DF4D28AA1657AA4D0055B170 /* LUMorseViewController.xib */,
+			);
+			path = MorseView;
+			sourceTree = "<group>";
+		};
+		DF4D28B01657AABF0055B170 /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BC330165192D000F8EE67 /* LUAppDelegate.h */,
+				DF3BC331165192D000F8EE67 /* LUAppDelegate.m */,
+			);
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		DF4D2952165813130055B170 /* MorseManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF634A4C165C341E00F17668 /* MorseConstants */,
+				DF66DB1E165A1A6D006DFFFB /* MorseCharacterManager */,
+				DF4D2953165813300055B170 /* LUMorseManager.h */,
+				DF4D2954165813300055B170 /* LUMorseManager.m */,
+				DF117ADB165B7086001B5271 /* LUMorseManagerDelegate.h */,
+			);
+			path = MorseManager;
+			sourceTree = "<group>";
+		};
+		DF634A4C165C341E00F17668 /* MorseConstants */ = {
+			isa = PBXGroup;
+			children = (
+				DF634A4D165C344000F17668 /* LUMorseContants.h */,
+				DF634A4E165C344000F17668 /* LUMorseContants.m */,
+			);
+			path = MorseConstants;
+			sourceTree = "<group>";
+		};
+		DF66DB1E165A1A6D006DFFFB /* MorseCharacterManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF66DB24165A1FF4006DFFFB /* MorseCharacter */,
+				DF66DB2B165A2EDA006DFFFB /* LUMorseCharacterManager.h */,
+				DF66DB2C165A2EDA006DFFFB /* LUMorseCharacterManager.m */,
+			);
+			path = MorseCharacterManager;
+			sourceTree = "<group>";
+		};
+		DF66DB24165A1FF4006DFFFB /* MorseCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3E9B6165AD89600B6FEC4 /* MorseSignal */,
+				DF66DB20165A1AAA006DFFFB /* LUMorseCharacterProtocol.h */,
+				DF117AD9165B6EAA001B5271 /* LUMorseCharacterDelegate.h */,
+				DF66DB21165A1B90006DFFFB /* LUMorseCharacter.h */,
+				DF66DB22165A1B90006DFFFB /* LUMorseCharacter.m */,
+			);
+			path = MorseCharacter;
+			sourceTree = "<group>";
+		};
+		DFB3E947165AA73B00B6FEC4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3E949165AA84500B6FEC4 /* MorseCode */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DFB3E949165AA84500B6FEC4 /* MorseCode */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3E9BF165AE9B400B6FEC4 /* whiteSpace.txt */,
+				DFB3E9C0165AE9B400B6FEC4 /* wordEnd.txt */,
+				DFB3E94A165AA85A00B6FEC4 /* 0.txt */,
+				DFB3E94B165AA85A00B6FEC4 /* 1.txt */,
+				DFB3E94C165AA85A00B6FEC4 /* 2.txt */,
+				DFB3E94D165AA85A00B6FEC4 /* 3.txt */,
+				DFB3E94E165AA85A00B6FEC4 /* 4.txt */,
+				DFB3E94F165AA85A00B6FEC4 /* 5.txt */,
+				DFB3E950165AA85A00B6FEC4 /* 6.txt */,
+				DFB3E951165AA85A00B6FEC4 /* 7.txt */,
+				DFB3E952165AA85A00B6FEC4 /* 8.txt */,
+				DFB3E953165AA85A00B6FEC4 /* 9.txt */,
+				DFB3E954165AA85A00B6FEC4 /* a.txt */,
+				DFB3E955165AA85A00B6FEC4 /* b.txt */,
+				DFB3E956165AA85A00B6FEC4 /* c.txt */,
+				DFB3E957165AA85A00B6FEC4 /* comma.txt */,
+				DFB3E958165AA85A00B6FEC4 /* d.txt */,
+				DFB3E959165AA85A00B6FEC4 /* dot.txt */,
+				DFB3E95A165AA85A00B6FEC4 /* e.txt */,
+				DFB3E95B165AA85A00B6FEC4 /* exclamation.txt */,
+				DFB3E95C165AA85A00B6FEC4 /* f.txt */,
+				DFB3E95D165AA85A00B6FEC4 /* g.txt */,
+				DFB3E95E165AA85A00B6FEC4 /* h.txt */,
+				DFB3E95F165AA85A00B6FEC4 /* i.txt */,
+				DFB3E960165AA85A00B6FEC4 /* interrogation.txt */,
+				DFB3E961165AA85A00B6FEC4 /* j.txt */,
+				DFB3E962165AA85A00B6FEC4 /* k.txt */,
+				DFB3E963165AA85A00B6FEC4 /* l.txt */,
+				DFB3E964165AA85A00B6FEC4 /* m.txt */,
+				DFB3E965165AA85A00B6FEC4 /* n.txt */,
+				DFB3E966165AA85A00B6FEC4 /* ñ.txt */,
+				DFB3E967165AA85A00B6FEC4 /* o.txt */,
+				DFB3E968165AA85A00B6FEC4 /* p.txt */,
+				DFB3E969165AA85A00B6FEC4 /* q.txt */,
+				DFB3E96A165AA85A00B6FEC4 /* quote.txt */,
+				DFB3E96B165AA85A00B6FEC4 /* r.txt */,
+				DFB3E96C165AA85A00B6FEC4 /* s.txt */,
+				DFB3E96D165AA85A00B6FEC4 /* t.txt */,
+				DFB3E96E165AA85A00B6FEC4 /* u.txt */,
+				DFB3E96F165AA85A00B6FEC4 /* v.txt */,
+				DFB3E970165AA85A00B6FEC4 /* w.txt */,
+				DFB3E971165AA85A00B6FEC4 /* x.txt */,
+				DFB3E972165AA85A00B6FEC4 /* y.txt */,
+				DFB3E973165AA85A00B6FEC4 /* z.txt */,
+			);
+			path = MorseCode;
+			sourceTree = "<group>";
+		};
+		DFB3E9B6165AD89600B6FEC4 /* MorseSignal */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3E9B7165AD8C300B6FEC4 /* LUMorseSignalDot.h */,
+				DFB3E9B8165AD8C300B6FEC4 /* LUMorseSignalDot.m */,
+				DFB3E9BA165AD8D800B6FEC4 /* LUMorseSignalStreak.h */,
+				DFB3E9BB165AD8D800B6FEC4 /* LUMorseSignalStreak.m */,
+				DFB3E9BD165AD92B00B6FEC4 /* LUMorseSignalDelegate.h */,
+				DFB3E9BE165ADA4500B6FEC4 /* LUMorseSignalProtocol.h */,
+			);
+			path = MorseSignal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3BC31C165192D000F8EE67 /* Lumus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3BC341165192D000F8EE67 /* Build configuration list for PBXNativeTarget "Lumus" */;
+			buildPhases = (
+				DF3BC319165192D000F8EE67 /* Sources */,
+				DF3BC31A165192D000F8EE67 /* Frameworks */,
+				DF3BC31B165192D000F8EE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lumus;
+			productName = Lumus;
+			productReference = DF3BC31D165192D000F8EE67 /* Lumus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3BC314165192D000F8EE67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LU;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricardo Suarez Martinez";
+			};
+			buildConfigurationList = DF3BC317165192D000F8EE67 /* Build configuration list for PBXProject "Lumus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF3BC312165192D000F8EE67;
+			productRefGroup = DF3BC31E165192D000F8EE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3BC31C165192D000F8EE67 /* Lumus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3BC31B165192D000F8EE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3BC32C165192D000F8EE67 /* InfoPlist.strings in Resources */,
+				DF3BC334165192D000F8EE67 /* Default.png in Resources */,
+				DF3BC336165192D000F8EE67 /* Default@2x.png in Resources */,
+				DF3BC338165192D000F8EE67 /* Default-568h@2x.png in Resources */,
+				DF3BC34A1651937C00F8EE67 /* brightness_big.png in Resources */,
+				DF3BC34B1651937C00F8EE67 /* brightness_small.png in Resources */,
+				DF3BC34C1651937C00F8EE67 /* off.png in Resources */,
+				DF3BC34D1651937C00F8EE67 /* on.png in Resources */,
+				DF3BC354165194B700F8EE67 /* 57.png in Resources */,
+				DF3BC356165194BD00F8EE67 /* 114.png in Resources */,
+				DF4D28AC1657AA4D0055B170 /* LUMorseViewController.xib in Resources */,
+				DF4D28AE1657AA9C0055B170 /* LUViewController.xib in Resources */,
+				DF4D29011657FA460055B170 /* torch.png in Resources */,
+				DF4D29021657FA460055B170 /* torch@2x.png in Resources */,
+				DF4D29331657FFF70055B170 /* morse.png in Resources */,
+				DF4D29341657FFF70055B170 /* morse@2x.png in Resources */,
+				DFB3E974165AA85A00B6FEC4 /* 0.txt in Resources */,
+				DFB3E975165AA85A00B6FEC4 /* 1.txt in Resources */,
+				DFB3E976165AA85A00B6FEC4 /* 2.txt in Resources */,
+				DFB3E977165AA85A00B6FEC4 /* 3.txt in Resources */,
+				DFB3E978165AA85A00B6FEC4 /* 4.txt in Resources */,
+				DFB3E979165AA85A00B6FEC4 /* 5.txt in Resources */,
+				DFB3E97A165AA85A00B6FEC4 /* 6.txt in Resources */,
+				DFB3E97B165AA85A00B6FEC4 /* 7.txt in Resources */,
+				DFB3E97C165AA85A00B6FEC4 /* 8.txt in Resources */,
+				DFB3E97D165AA85A00B6FEC4 /* 9.txt in Resources */,
+				DFB3E97E165AA85A00B6FEC4 /* a.txt in Resources */,
+				DFB3E97F165AA85A00B6FEC4 /* b.txt in Resources */,
+				DFB3E980165AA85A00B6FEC4 /* c.txt in Resources */,
+				DFB3E981165AA85A00B6FEC4 /* comma.txt in Resources */,
+				DFB3E982165AA85A00B6FEC4 /* d.txt in Resources */,
+				DFB3E983165AA85A00B6FEC4 /* dot.txt in Resources */,
+				DFB3E984165AA85A00B6FEC4 /* e.txt in Resources */,
+				DFB3E985165AA85A00B6FEC4 /* exclamation.txt in Resources */,
+				DFB3E986165AA85A00B6FEC4 /* f.txt in Resources */,
+				DFB3E987165AA85A00B6FEC4 /* g.txt in Resources */,
+				DFB3E988165AA85A00B6FEC4 /* h.txt in Resources */,
+				DFB3E989165AA85A00B6FEC4 /* i.txt in Resources */,
+				DFB3E98A165AA85A00B6FEC4 /* interrogation.txt in Resources */,
+				DFB3E98B165AA85A00B6FEC4 /* j.txt in Resources */,
+				DFB3E98C165AA85A00B6FEC4 /* k.txt in Resources */,
+				DFB3E98D165AA85A00B6FEC4 /* l.txt in Resources */,
+				DFB3E98E165AA85A00B6FEC4 /* m.txt in Resources */,
+				DFB3E98F165AA85A00B6FEC4 /* n.txt in Resources */,
+				DFB3E990165AA85A00B6FEC4 /* ñ.txt in Resources */,
+				DFB3E991165AA85A00B6FEC4 /* o.txt in Resources */,
+				DFB3E992165AA85A00B6FEC4 /* p.txt in Resources */,
+				DFB3E993165AA85A00B6FEC4 /* q.txt in Resources */,
+				DFB3E994165AA85A00B6FEC4 /* quote.txt in Resources */,
+				DFB3E995165AA85A00B6FEC4 /* r.txt in Resources */,
+				DFB3E996165AA85A00B6FEC4 /* s.txt in Resources */,
+				DFB3E997165AA85A00B6FEC4 /* t.txt in Resources */,
+				DFB3E998165AA85A00B6FEC4 /* u.txt in Resources */,
+				DFB3E999165AA85A00B6FEC4 /* v.txt in Resources */,
+				DFB3E99A165AA85A00B6FEC4 /* w.txt in Resources */,
+				DFB3E99B165AA85A00B6FEC4 /* x.txt in Resources */,
+				DFB3E99C165AA85A00B6FEC4 /* y.txt in Resources */,
+				DFB3E99D165AA85A00B6FEC4 /* z.txt in Resources */,
+				DFB3E9C1165AE9B400B6FEC4 /* whiteSpace.txt in Resources */,
+				DFB3E9C2165AE9B400B6FEC4 /* wordEnd.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3BC319165192D000F8EE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3BC32E165192D000F8EE67 /* main.m in Sources */,
+				DF3BC332165192D000F8EE67 /* LUAppDelegate.m in Sources */,
+				DF3BC33B165192D000F8EE67 /* LUViewController.m in Sources */,
+				DF3BC3501651938700F8EE67 /* UIDevice-Hardware.m in Sources */,
+				DF4D28AB1657AA4D0055B170 /* LUMorseViewController.m in Sources */,
+				DF4D2955165813300055B170 /* LUMorseManager.m in Sources */,
+				DF66DB23165A1B90006DFFFB /* LUMorseCharacter.m in Sources */,
+				DF66DB2D165A2EDA006DFFFB /* LUMorseCharacterManager.m in Sources */,
+				DFB3E9B9165AD8C300B6FEC4 /* LUMorseSignalDot.m in Sources */,
+				DFB3E9BC165AD8D800B6FEC4 /* LUMorseSignalStreak.m in Sources */,
+				DF634A4F165C344000F17668 /* LUMorseContants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3BC32A165192D000F8EE67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3BC32B165192D000F8EE67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3BC33F165192D000F8EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3BC340165192D000F8EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ricardo Suarez Martinez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "153E04B0-84BC-4168-8F95-AE1ACFAA145A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3BC342165192D000F8EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lumus/Lumus-Prefix.pch";
+				INFOPLIST_FILE = "Lumus/Lumus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF3BC343165192D000F8EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lumus/Lumus-Prefix.pch";
+				INFOPLIST_FILE = "Lumus/Lumus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3BC317165192D000F8EE67 /* Build configuration list for PBXProject "Lumus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3BC33F165192D000F8EE67 /* Debug */,
+				DF3BC340165192D000F8EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3BC341165192D000F8EE67 /* Build configuration list for PBXNativeTarget "Lumus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3BC342165192D000F8EE67 /* Debug */,
+				DF3BC343165192D000F8EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3BC314165192D000F8EE67 /* Project object */;
+}
